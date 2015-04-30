@@ -43,7 +43,7 @@ BOARD_USE_DEVICE_AUDIO_EFFECTS_CONF := true
 
 # Boot Animation
 PRODUCT_COPY_FILES += \
-    vendor/optipop/prebuilt/bootanimation/bootanimation_2560.zip:system/media/bootanimation.zip
+    vendor/optipop/prebuilt/bootanimation/bootanimation_1600.zip:system/media/bootanimation.zip
     
 # Extra products packages
 PRODUCT_PACKAGES += \
