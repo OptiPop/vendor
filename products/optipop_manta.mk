@@ -45,7 +45,7 @@ BOARD_USE_DEVICE_AUDIO_EFFECTS_CONF := true
 PRODUCT_COPY_FILES += \
     vendor/optipop/prebuilt/bootanimation/bootanimation_1600.zip:system/media/bootanimation.zip
     
-# Extra products packages
+# Extra products packages 
 PRODUCT_PACKAGES += \
 	Viper4Android \
 	AdAway \
