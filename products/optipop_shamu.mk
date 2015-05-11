@@ -1,4 +1,4 @@
-# Copyright (C) 2014 OptiPop Project
+# Copyright (C) 2015 OptiPop Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -11,13 +11,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-# Check for target product
-
-ifeq (optipop_shamu,$(TARGET_PRODUCT))
-
-# Define TARGET_ARCH for what toolchain libs to use.
-TARGET_ARCH := arm
 
 # Include OptiPop common configuration
 include vendor/optipop/config/common.mk
@@ -35,5 +28,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=shamu BUILD_FINGERPRINT="google/sha
 # Boot Animation
 PRODUCT_COPY_FILES += \
     vendor/optipop/prebuilt/bootanimation/bootanimation_1440.zip:system/media/bootanimation.zip
-
-endif
