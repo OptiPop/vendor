@@ -1,4 +1,4 @@
-# Copyright (C) 2014 OptiPop Project
+# Copyright (C) 2015 OptiPop Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -11,13 +11,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-# Check for target product
-
-ifeq (optipop_manta,$(TARGET_PRODUCT))
-
-# Define TARGET_ARCH for what toolchain libs to use.
-TARGET_ARCH := arm
 
 # Kernel toolchain
 $(combo_2nd_arch_prefix)TARGET_GCC_VERSION_ARM := 4.8
@@ -50,5 +43,3 @@ PRODUCT_PACKAGES += \
 	Viper4Android \
 	AdAway \
 	BetterBatteryStats
-
-endif
