@@ -1,9 +1,6 @@
 # Inherit AOSP device configuration for flo
 $(call inherit-product, device/asus/flo/full_flo.mk)
 
-# Define TARGET_ARCH for what toolchain libs to use.
-TARGET_ARCH := arm
-
 # Include OptiPop common configuration
 include vendor/optipop/config/common.mk
 
