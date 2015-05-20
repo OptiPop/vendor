@@ -23,7 +23,7 @@ PRODUCT_NAME := optipop_shamu
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 6
 PRODUCT_MANUFACTURER := motorola
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=shamu BUILD_FINGERPRINT="google/shamu/shamu:5.1.1/LMY47X/1849464:user/release-keys" PRIVATE_BUILD_DESC="shamu-user 5.1.1 LMY47X 1849464 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=shamu BUILD_FINGERPRINT="google/shamu/shamu:5.1.1/LMY48B/1863243:user/release-keys" PRIVATE_BUILD_DESC="shamu-user 5.1.1 LMY48B 1863243 release-keys"
 
 # Boot Animation
 PRODUCT_COPY_FILES += \
